@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./src/style/index.css -o ./public/style/index.css --watch"
+  },
+  "keywords": [
+    "html, css, tailwind"
+  ],
+  "author": "Yordy Almonte <yoalmonte.dev@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
